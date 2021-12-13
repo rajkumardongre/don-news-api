@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+header,
+section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 5px;
+  background-color: rgb(53, 53, 53);
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+section {
+  text-align: left;
+}
+a {
+  color: whitesmoke;
+}
+.point {
+  font-size: 1.1rem;
+  background-color: rgb(75, 75, 75);
+  padding: 0.3rem;
+  border-radius: 5px;
+  margin: 1rem;
+}
+.get-span {
+  font-weight: bold;
+  padding: 0.3rem;
+  color: white;
+  background-color: rgb(104, 138, 54);
+  border-radius: 5px;
+}
+.code {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.gen {
+  color: black;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.heading-span {
+  /* margin-bottom: 0.5rem; */
+  margin: 1rem 0;
+  font-weight: bold;
+}
+/* .p-point {
+  padding: 0.3rem;
+  border-radius: 1rem;
+  margin-bottom: 0.4rem;
+  background-color: rgba(160, 199, 250, 0.74);
+  color: rgb(255, 255, 255);
+} */
+ul {
+  padding-left: 1rem;
+}
+ul li {
+  list-style: circle;
+}
+.cu-code {
+  color: rgb(119, 0, 255);
+  font-style: italic;
+}

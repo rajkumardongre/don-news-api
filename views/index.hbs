@@ -1,0 +1,95 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>NEWS API DON</title>
+  </head>
+  <body>
+    <header>
+      <h1>NEWS API DON</h1>
+    </header>
+    <section>
+      <h2>HOW TO USE</h2>
+      <div class="point">
+        <p>
+          1. Login to
+          <a
+            target="_blank"
+            href="https://newsapi.org/"
+            rel="noopener noreferrer"
+          >
+            newsapi.org</a>
+          and get your
+          <b>API KEYS</b>
+        </p>
+      </div>
+      <div class="point">
+        <p>2. For accessing Top Headline News</p>
+        <p class="code">
+          <span class="get-span">GET</span>
+          https://news-api-don.herokuapp.com/api/v1?apiKey=&lt;YOUR API-KEY&gt;
+        </p>
+      </div>
+      <div class="point">
+        <p>3. For accessing News with keywords</p>
+        <p class="code">
+          <span class="get-span">GET</span>
+          https://news-api-don.herokuapp.com/api/v1?apiKey=&lt;YOUR
+          API-KEY&gt;&amp;q=&lt;KEYWORD&gt;
+        </p>
+      </div>
+      <div class="point">
+        <p>4. For accessing News from Different Country with Keywords</p>
+        <p class="code">
+          <span class="get-span">GET</span>
+          https://news-api-don.herokuapp.com/api/v1?apiKey=&lt;YOUR
+          API-KEY&gt;&amp;category=&lt;KEYWORD&gt;&amp;country=&lt;COUNTRY
+          CODE&gt;
+        </p>
+        <div class="gen">
+          <p class="heading-span">Category</p>
+          {{! <span class="p-point">business</span><br /><br />
+          <span class="p-point">entertainment</span><br /><br />
+          <span class="p-point">general</span><br /><br />
+          <span class="p-point">health</span><br /><br />
+          <span class="p-point">science</span><br /><br />
+          <span class="p-point">sports</span><br /><br />
+          <span class="p-point">technology</span><br /><br /> }}
+          <ul>
+            <li>business</li>
+            <li>entertainment</li>
+            <li>general</li>
+            <li>health</li>
+            <li>science</li>
+            <li>sports</li>
+            <li>technology</li>
+          </ul>
+          <p class="heading-span">Country</p>
+          {{! <span class="p-point">business</span>
+          <span class="p-point">entertainment</span>
+          <span class="p-point">general</span>
+          <span class="p-point">health</span>
+          <span class="p-point">science</span>
+          <span class="p-point">sports</span>
+          <span class="p-point">technology</span> }}
+          <p class="cu-code">ae, ar, at, au, be, bg, br, ca, ch, cn, co, cu, cz,
+            de, eg, fr, gb, gr, hk, hu, id, ie, il, in, it, jp, kr, lt, lv, ma,
+            mx, my, ng, nl, no, nz, ph, pl, pt, ro, rs, ru, sa, se, sg, si, sk,
+            th, tr, tw, ua, us, ve, za</p>
+        </div>
+      </div>
+      <div class="point">
+        <h3>
+          For Reaching Us
+          <a
+            href="https://www.instagram.com/raj_kumar_0_21/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Click Here</a>
+        </h3>
+      </div>
+    </section>
+  </body>
+</html>
